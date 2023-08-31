@@ -1,0 +1,10 @@
+[java]
+symbol = ' '
+style = 'red'
+
+[custom.clojure]
+command = '~/scripts/clj_version.clj'
+detect_files = ['deps.edn']
+symbol = ' '
+format = 'and [$symbol($output)]($style) '
+style = 'blue'
